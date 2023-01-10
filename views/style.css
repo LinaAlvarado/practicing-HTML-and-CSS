@@ -365,3 +365,31 @@ margin-bottom: 40px;
   font-weight: bolder;
   color: var(--very-light-pink);
 }
+
+/* My orders - view */
+.orders{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.orders p:nth-child(1){
+  display: flex;
+  flex-direction: column;
+}
+
+.orders p span:nth-child(1){
+ font-weight: bolder;
+}
+
+.orders p span:nth-child(2){
+  color: var(--very-light-pink);
+  font-size: var(--sm);
+ }
+
+ .orders p:nth-child(2){
+  text-align: end;
+  font-weight: bold;
+}
